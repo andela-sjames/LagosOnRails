@@ -167,7 +167,13 @@ header .intro-text .skills {
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
-
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-nav > li > a:hover {
+  color: #7e2425 !important;
+  text-decoration: none;
+  background-color: #fff !important;
+  transition : all .3s ease;
+}
 .navbar-default,
 .navbar-inverse {
     border: 0;
@@ -184,7 +190,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #7e2425;
 }
 
 section.success a,
@@ -210,7 +216,7 @@ section.success a.active {
     margin-top: 15px;
     border: solid 2px #fff;
     font-size: 20px;
-    color: #fff;
+    color: #fff !important;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -220,7 +226,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #7e2425 !important;
     background: #fff;
 }
 
