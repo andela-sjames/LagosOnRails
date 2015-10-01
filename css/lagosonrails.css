@@ -68,6 +68,11 @@ hr.star-light:after {
     background-color: #18bc9c;
 }
 
+.star:after {
+    color: #fff !important;
+    background-color: #7e2425 !important;
+}
+
 hr.star-primary {
     border-color: #2c3e50;
 }
