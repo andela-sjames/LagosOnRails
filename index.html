@@ -18,8 +18,6 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
 
 <body id="page-top" class="index">
@@ -50,9 +48,6 @@
                     <li class="page-scroll">
                         <a href="#event">Upcoming Event</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#join">Join the Community</a>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -62,21 +57,24 @@
 
     <!-- Header -->
     <header>
+    <div class="overlay">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">We Love Rails</span>
-                        <hr class="star-light">
-                        <span class="skills">Lorem ipsum dolor</span>
+                    <div>
+                        <img class="img-responsive" src="img/profile.png" alt="">
+                        <div class="intro-text">
+                            <span class="name">We Love Rails</span>
+                            <span class="skills">Reaching rails developers across Africa, starting from Lagos.</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
+    <!-- About Section -->
     <section id="about">
         <div class="container">
             <div class="row">
@@ -86,19 +84,31 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row about-text">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra.</p>
+                    <p>While Ruby on Rails as a framework has one of the strongest tech community around it, the Lagos on Rails community is a collection of enthusiastic developers interested in contributing to the open and international Rails community. 
+                    The Lagos on Rails community is a growing, starting from Lagos, with the purpose of creating community support and making strong contributions to the International Rails Community through diverse means.  We are able to create community support by learning together at local meet ups where we discuss technical Rails solutions.</p>
                 </div>
 
                 <div class="col-lg-4">
-                    <p>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+                    <p>We also work closely with nearby Tech companies to have a view of industry demands as they are constantly changing. We are deeply interested in contributing to open source projects and our members are constantly contributing their quota to Open Source, carrying other members along. We learn, we share, we grow and contribute together.
+                    We are still growing and will like you to join us for the next meet up.</p>
+                </div>
+            </div>
+
+             <div class="row">
+                <div class="col-lg-6 col-lg-offset-4">
+                    <h1><i class="fa fa-group"></i> SUPPORTED BY </h1>
+                    <div class="row">
+                        <a href="http://www.andela.com/"><img class="img-responsive img-thumb andela" src="img/andela.png" alt="Andela"/></a>
+                        <a href="http://www.dealdey.com/"><img class="img-responsive img-thumb dealdey" src="img/dealdey.png" alt="Dealdey"/></a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- Event Section -->
     <section class="success" id="event">
         <div class="container">
             <div class="row">
@@ -111,54 +121,16 @@
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3 text-center">
                     <p><i class="fa fa-map-marker"></i> Venue : Deal Dey </p><br>
+                    <p><i class="fa fa-calendar"></i> Date : I7th October, 2015. </p><br>
                     <p><i class="fa fa-user"></i> Speaker : Timi Dakolo </p><br>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
+                    <a href="http://attending.io/events/lagosonrails" class="btn btn-lg btn-outline">
                         <i class="fa fa-calendar"></i> I'm Attending
                     </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="join">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Join the community</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Join Us</button>
-                            </div>
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>
@@ -180,12 +152,6 @@
                             </li>
                             <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -217,13 +183,9 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Custom JavaScript -->
     <script src="js/lagosonrails.js"></script>
